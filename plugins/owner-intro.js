@@ -21,7 +21,7 @@ let handler = async (m, { text, usedPrefix, command, conn }) => {
  ◈ •│
  ◈ •│ Gender  : 𝙼𝙰𝙻𝙴
  ◈ •│
- ◈ •│ Age        : 𝟸𝟼_
+ ◈ •│ Age        : Eighteen years 
  ◈ •│
  ◈ •│ Status   : ${profession}
  ◈ •│
@@ -44,12 +44,12 @@ let handler = async (m, { text, usedPrefix, command, conn }) => {
       console.log("Error fetching profile picture:", e);
     }
 
-    const sourceUrl = 'https://youtube.com/@GlobalTechInfo'; // Example source URL for the card
-    const OwnerImg = 'https://github.com/GlobalTechInfo.png';
+    const sourceUrl = 'https://youtube.com/@Zidii_Decent_Boy'; // Example source URL for the card
+    const OwnerImg = 'https://i.ibb.co/XrZC7gsX/4ec8f36ae1a4d0f5.jpg';
     const contextInfo = {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: 'MEGA-AI', // Title of the card
+        title: '𝙈𝙪𝙝𝙖𝙢𝙢𝙖𝙙-𝙈𝘿', // Title of the card
         body: '𝑇𝛩𝑈𝐶𝛨 𝛨𝛯𝑅𝛯',
         thumbnailUrl: OwnerImg, // Fixed URL syntax with quotes
         mediaUrl: pp,  // Corrected to use profile picture URL fetched
