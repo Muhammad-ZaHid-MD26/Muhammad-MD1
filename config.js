@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '923288330026';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '923288330026' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -20,12 +20,12 @@ for (let i = 0; i < ownerlist.length; i++) {
 }
 //
 global.botname = process.env.BOTNAME || 'MEGA-AI';
-global.pairingNumber = process.env.BOT_NUMBER || '' ;  // put your number here
+global.pairingNumber = process.env.BOT_NUMBER || '923276326230' ;  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['923444844060', '923051391007']
+global.allowed = ['923288330026', '923288330026']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -42,7 +42,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.canal = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
+global.canal = 'https://whatsapp.com/channel/0029VayRg70L2AU6Ykq5gn2H/349'
 
 
 global.APIs = {
@@ -73,16 +73,16 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'MEGA-AI'
-global.author = 'GlobalTechInfo'
-global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
-global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
-global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
-global.fgsc = 'https://github.com/GlobalTechInfo/MEGA-AI'
-global.fgyt = 'https://youtube.com/@GlobalTechInfo'
-global.fgpyp = 'https://youtube.com/@GlobalTechInfo'
-global.fglog = 'https://i.ibb.co/G2dh9cB/qasim.jpg'
-global.thumb = fs.readFileSync('./assets/A.jpg')
+global.packname = '╳⃞⃟⎆扎伊迪🫣体面的☷╳⃞⃟🇵🇰⛦'
+global.author = '💝'
+global.menuvid = 'https://i.imgur.com/WgIJbMt.jpeg'
+global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/zidii_decent_boy?igsh=MXVobjVlMXBrYzcxbg=='
+global.dygp = 'https://whatsapp.com/channel/0029VayRg70L2AU6Ykq5gn2H/349'
+global.fgsc = 'https://github.com/Muhammad-ZaHid-MD26/Muhammad-MD1'
+global.fgyt = 'https://youtube.com/@Zidii_Decent_Boy'
+global.fgpyp = 'https://youtube.com/@Zidii_Decent_Boy'
+global.fglog = 'https://i.imgur.com/WgIJbMt.jpeg'
+global.thumb = fs.readFileSync('./assets/Aa.jpg')
 
 global.wait = '⏳'
 global.rwait = '⏳'
